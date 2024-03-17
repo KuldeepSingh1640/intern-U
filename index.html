@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        .nav-link {
+            font-size: 1.5rem; /* Adjust the font size as needed */
+            margin-right: 20px; /* Adjust the right margin to create space between links */
+        }
+
+        .nav-link:hover {
+            color: #ec5c5c !important; /* Change color on hover */
+            text-decoration: none; /* Remove underline on hover */
+        }
+
+        .nav-link:last-child {
+            margin-right: 0; /* Remove margin from the last link to prevent extra space */
+        }
+        
+    .hover-highlight:hover {
+        color: rgba(13, 0, 255, 0.971);
+    }
+
+
+    </style>
+</head>
+<body>
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <div class="col-md-3 mb-2 mb-md-0">
+            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                <img src="./logo.png" alt="Logo" width="150" height="150">
+            </a>
+        </div>
+  
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link link-secondary">Home</a></li>
+          <li><a href="#" class="nav-link">Internships</a></li>
+          <li><a href="#" class="nav-link">Jobs</a></li>
+          <li><a href="#" class="nav-link">Courses</a></li>
+          <li><a href="#" class="nav-link">About us</a></li>
+        </ul>
+  
+        <div class="col-md-3 text-end">
+          <button type="button" class="btn btn-outline-primary me-2">Login</button>
+          <button type="button" class="btn btn-primary">Sign-up</button>
+        </div>
+    </header>
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+          <a href="internships.html" class="text-decoration-none">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./internship image.jpeg'); background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                      <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold hover-highlight">Internships</h3>
+                  </div>
+              </div>
+          </a>
+      </div>
+  
+      <div class="col">
+          <a href="parttime_jobs.html" class="text-decoration-none">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./parttime\ jobs.png'); background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                      <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold hover-highlight">Part-Time Jobs</h3>
+                  </div>
+              </div>
+          </a>
+      </div>
+  
+      <div class="col">
+          <a href="certification_courses.html" class="text-decoration-none">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./certification\ coursee\ img.png');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                      <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold hover-highlight">Certification Courses for you</h3>
+                  </div>
+              </div>
+          </a>
+      </div>
+  </div>
+  
+  
+    
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Internships</h3>
+          <p> Explore our current internship openings and apply today to embark on a rewarding journey towards your professional goals.</p>
+          <a href="#" class="icon-link">
+            Know more
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Trending on InternU</h3>
+          <p> "Uplift Your Potential: Explore our curated courses designed to empower individuals like you. From skill development to personal growth, our diverse range of courses equips you with the knowledge and tools to thrive in your personal and professional life. Invest in yourself and discover the transformative power of continuous learning."</p>
+          <a href="#" class="icon-link">
+            Know more
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Part-Time Jobs</h3>
+          <p>Join our dynamic team and unlock flexible work schedules tailored to your lifestyle. Whether you're a student, parent, or seeking supplemental income, discover fulfilling roles across various departments. With competitive pay and a supportive work environment, embark on your journey towards professional growth with us. Browse our available positions and apply today to start your rewarding part-time career!"
+
+
+
+
+
+            .</p>
+          <a href="#" class="icon-link">
+            Know more
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+      </div>
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <div class="col mb-3">
+          <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <p class="text-body-secondary">© 2024</p>
+        </div>
+    
+        <div class="col mb-3">
+    
+        </div>
+        
+    
+        <div class="col mb-3">
+          <h5>About us </h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Our Company</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms and Conditions</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Help Center</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact Us</a></li>
+          </ul>
+        </div>
+    
+        <div class="col mb-3">
+          <h5>Our Service</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Interships</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Part Time Jobs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Certification Courses</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Placement Assistance</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Skill Development</a></li>
+          </ul>
+        </div>
+    
+        <div class="col mb-3">
+          <h5>Follow US</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">LinkedIn</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Instagram</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Twitter</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Facebook</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Youtube</a></li>
+          </ul>
+        </div>
+      </footer>
+</body>
+</html>
